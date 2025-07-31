@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,json,css,html}\""
   },
   "dependencies": {
     "@workspace/ui": "workspace:*",

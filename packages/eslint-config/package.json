@@ -6,8 +6,10 @@
   "exports": {
     "./base": "./base.js",
     "./next-js": "./next.js",
+    "./node": "./node.js",
     "./react-internal": "./react-internal.js"
   },
+  "types": "./index.d.ts",
   "devDependencies": {
     "@next/eslint-plugin-next": "^15.1.7",
     "@typescript-eslint/eslint-plugin": "^8.24.1",

@@ -4,7 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "lint": "eslint . --max-warnings 0"
+    "lint": "eslint . --max-warnings 0",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,json,css,html}\""
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
@@ -35,5 +36,6 @@
     "./lib/*": "./src/lib/*.ts",
     "./components/*": "./src/components/*.tsx",
     "./hooks/*": "./src/hooks/*.ts"
-  }
+  },
+  "types": "./index.d.ts"
 }
